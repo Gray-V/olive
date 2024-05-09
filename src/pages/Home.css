@@ -1,0 +1,100 @@
+.home-container {
+    display: grid;
+    place-items: center;
+    height: 70vh;
+    background: url('background-image.jpg') no-repeat center center; 
+    background-size: cover;
+    border-bottom: #7c8c65 3px solid;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 15%; 
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.welcome-section h1, .welcome-section p {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.welcome-section h1 {
+    font-size: xx-large;
+}
+
+.welcome-section p {
+    font-size: x-large;
+}
+
+.signup-btn {
+    background-color: #7c8c65; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s ease, filter 0.3s ease;
+}
+
+.signup-btn:hover {
+    filter: brightness(85%);
+}
+
+.features {
+    flex: 1;
+    margin: 3%;
+}
+
+.feature {
+    color: #7c8c65;
+    font-size: large;
+    margin-bottom: 8%;
+    width: 75%;
+}
+
+.feature:hover {
+    border-radius: 10px;
+    transition: 0.1s ease;
+    font-size: 120%;
+}
+
+.feature button {
+    margin-top: 0;
+    color:#7c8c65;
+    background-color: transparent;
+    border: none;
+    margin: 1%;
+    font-size: x-large;
+}
+
+.feature button:hover {
+    border-radius: 5px;
+}
+
+.combined-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.use-case-section {
+    flex: 1;
+}
+
+.calendar {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.calendar:hover {
+    filter: brightness(50%);
+}
