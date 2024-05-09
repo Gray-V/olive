@@ -1,10 +1,16 @@
 import React from 'react';
-import './Home.css'; 
-import calendar from './calendar.png';
+import './css/tech.css'; 
+import calendar from './images/calendar.png';
 
-function HomePage() {
+function Technology() {
   return (
     <div className="home-container">
+      <div className="speech-bubble-container">
+        <div className="speech-bubble">
+          Hello! I'm Olive, your AI assistant.
+        </div>
+        <div className="speech-bubble-tail"></div>
+      </div>
       <section className="welcome-section">
         <h1>Meet Olive!</h1>
         <p>Olive is an AI-powered calendar assistant that learns your productivity habits over time to ensure you complete your highest priority tasks in an efficient and timely manner. Try Olive for free today!</p>
@@ -33,4 +39,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Technology;

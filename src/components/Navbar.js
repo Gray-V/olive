@@ -6,12 +6,11 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <img src={logo} alt="Logo" className="logo" />
+        <NavLink to="/" className='home-button' > <img className="logo" src={logo} alt="'" /></NavLink>
         <div className="nav-links">
-          <NavLink exact to="/" activeClassName="active">Home</NavLink>
-          {/* <NavLink to="/web-designs" activeClassName="active">Web designs</NavLink>
-          <NavLink to="/mobile-designs" activeClassName="active">Mobile designs</NavLink> */}
-          <NavLink to="/about" activeClassName="active">About</NavLink>
+          <NavLink to="/dashboard" activeClassName="active">Dashboard</NavLink>
+          <NavLink to="/technology" activeClassName="active">Technology</NavLink>
+          <NavLink to="/pricing" activeClassName="active">Pricing</NavLink>
         </div>
       </div>
       <div className="auth-buttons">

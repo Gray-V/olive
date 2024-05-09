@@ -52,14 +52,21 @@ body, html {
 }
 
 .nav-links a {
-  margin-right: 15px; /* Spacing between each link */
+  margin-right: 15px; 
   text-decoration: none;
-  font-size: 150%; /* Adjust size as necessary */
-  color: #333; /* Link color */
+  font-size: 150%; 
+  color: #333; 
+}
+.nav-links a:hover {
+  color: #7c8c65; /* Hover color */
 }
 
+.home-button:hover{
+  cursor: pointer;
+}
 .nav-links a.active {
   color: #7c8c65; /* Active link color */
+  
 }
 
 .auth-buttons {
@@ -79,7 +86,8 @@ body, html {
 }
 
 .auth-buttons button:hover {
-  background-color: darken(#7c8c65, 10%); /* Darker on hover */
+  background-color: #7c8c65;
+  color: #fffd;
 }
 .main-content {
   padding: 20px;

@@ -2,7 +2,7 @@
     display: grid;
     place-items: center;
     height: 70vh;
-    background: url('background-image.jpg') no-repeat center center; 
+    background: url('../images/background-image.jpg') no-repeat center center; 
     background-size: cover;
     border-bottom: #7c8c65 3px solid;
     text-align: center;
@@ -72,7 +72,7 @@
     background-color: transparent;
     border: none;
     margin: 1%;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .feature button:hover {
@@ -98,3 +98,39 @@
 .calendar:hover {
     filter: brightness(50%);
 }
+
+
+
+.about-us-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .founders {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .founder-card {
+    width: 200px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .founder-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 10px;
+  }
+  
+  .role, .bio {
+    margin: 5px 0;
+  }
+  

@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import HomePage from './pages/HomePage';
-// import WebDesignsPage from './pages/WebDesignsPage';
-// import MobileDesignsPage from './pages/MobileDesignsPage';
-import AboutPage from './pages/AboutPage';
+import Tech from './pages/tech';
+import Home from './pages/home';
+import Dashboard from './pages/dashboard';
+import Pricing from './pages/pricing';
 import './App.css';
 
 function App() {
@@ -13,10 +13,10 @@ function App() {
       <div className="app-container">
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          {/* <Route path="/web-designs" element={<WebDesignsPage />} />
-          <Route path="/mobile-designs" element={<MobileDesignsPage />} /> */}
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/technology" element={<Tech />} />
+          <Route path="/pricing" element={<Pricing />} />
         </Routes>
       </div>
     </Router>
