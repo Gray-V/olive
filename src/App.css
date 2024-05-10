@@ -108,39 +108,45 @@ body, html {
   background-color: darken(#7c8c65, 10%);
 }
 
-/* responsive */
+/* Basic styles */
+.menu-icon {
+  display: none; /* Hide by default */
+  font-size: 30px; /* Icon size */
+  cursor: pointer;
+}
 
-@media screen and (max-width: 768px) {
+.nav-links.open {
+  display: flex; /* Display when menu is open */
+  flex-direction: column;
+  align-items: flex-start; /* Align links to the start */
+  padding: 10px; /* Add some padding */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1000px) {
+  .menu-icon {
+    display: block; /* Show menu icon */
+  }
+
   .nav-links {
-    display: none;
-  }
-
-  .auth-buttons {
-    display: none;
-  }
-
-  .nav-left {
-    display: flex;
-    align-items: center;
+    display: none; /* Hide links by default */
+    flex-direction: column;
+    width: 100%; /* Full width */
+    position: absolute;
+    top: 60px; /* Position below the navbar */
+    left: 0;
+    background: #fff; /* Background color */
   }
 
   .nav-links a {
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  .navbar {
-    padding: 10px 20px;
-  }
-
-  .nav-right {
-    display: flex;
-    align-items: center;
-  }
-
-  .menu-icon {
-    display: block;
-    font-size: 200%;
+    padding: 10px; /* Padding for links */
+    display: block; /* Make each link a block for full width */
+    text-decoration: none;
     color: #333;
+    font-size: 16px;
+  }
+
+  .nav-links a:hover {
+    background: #7c8c65; /* Hover background color */
   }
 }
