@@ -1,22 +1,40 @@
-.test {
-    display: grid;
-    place-items: center;
+.in-progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
-    background: url('../images/background-image.jpg') no-repeat center center; 
-    background-size: cover;
     text-align: center;
-    width: 100%;
-    padding: 20px;}
+    background: #f4f4f4;
+    padding: 20px;
+}
 
+.in-progress-container h1 {
+    color: #333;
+    font-size: 2rem;
+}
 
-.test h1, .test p {
-    color: #ffffff;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
+.in-progress-container p {
+    color: #666;
+    margin: 10px 0;
+}
+
+.notify-form {
+    margin-top: 20px;
+}
+
+.notify-form input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.notify-form button {
+    padding: 10px 20px;
     background-color: #7c8c65;
-    max-width: 50%;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    border-radius: 1%;
-    box-shadow: inset 0 0 0 0 #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
