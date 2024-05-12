@@ -21,7 +21,9 @@ function Navbar() {
         </div>
       </div>
       <div className="auth-buttons">
-        <button className="sign up">Sign up for our Mailing List</button>
+        <div className="sign-up">
+        <NavLink to="/dashboard" activeClassName="active">Sign up for our Mailing List</NavLink>
+        </div>
       </div>
     </nav>
   );

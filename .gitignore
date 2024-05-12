@@ -23,8 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 
-# # Environment variables
-# src/pages/config.env
 
 # # Ignore Firebase config file
-# src/firebase-config.js
+src/pages/firebase-config.js
