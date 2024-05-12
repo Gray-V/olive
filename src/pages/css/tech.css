@@ -170,3 +170,35 @@ h2 {
     }
 
 }
+
+@media (max-width: 768px) {
+    .top-section {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .intro-text {
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 20px; /* Provide space between text and logo on mobile */
+    }
+
+    .text-bubble {
+        max-width: 90%; /* Increase width for smaller screens */
+        margin-left: 5%; /* Center align the bubble */
+    }
+
+    .signup-button {
+        margin-left: 0;
+        width: 80%; /* Full-width button on mobile */
+        margin-top: 10px;
+
+    }
+
+    .olive-image-wrapper img {
+        width: 20%; /* Full-width image on mobile */
+        margin-right: 0; /* Remove right margin */
+        margin-top: 20px; /* Provide space between image and text */
+        margin-bottom: 70px; /* Provide space between image and text */
+    }
+}
