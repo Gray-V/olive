@@ -18,6 +18,7 @@
     width: 100%;
     padding: 20px;
     margin-top:2%;
+    margin-bottom: 8%;
 }
 
 .intro-text {
@@ -72,11 +73,13 @@
 }
 
 .olive-image-wrapper img {
-    width: 120%; 
+    width: 100%; 
     margin-right: 10%;
     right: 20%;
     position: relative;
-    margin-top: 40%;
+    margin-top: 30%;
+    margin-bottom: 1%;
+    
 
 }
 
