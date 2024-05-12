@@ -35,35 +35,29 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
   
-  
-  /* Card title */
   .pricing-card h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 10px;
   }
   
-  /* Price styling */
   .price {
     font-size: 28px;
     color: #7c8c65;
     margin: 10px 0;
   }
   
-  /* Features list */
   .pricing-card ul {
     list-style-type: none;
     padding: 0;
     margin: 20px 0;
   }
   
-  /* Individual feature */
   .pricing-card ul li {
     margin: 10px 0;
     color: #666;
   }
   
-  /* Button styling */
   .pricing-card button {
     background-color: #7c8c65;
     color: #ffffff;
@@ -74,7 +68,6 @@
     transition: background-color 0.3s;
   }
   
-  /* Button hover effect */
   .pricing-card button:hover {
     background-color: #6b7d5b; 
   }

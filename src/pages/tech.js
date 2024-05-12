@@ -1,42 +1,35 @@
-import React from 'react';
-import './css/tech.css'; 
-import calendar from './images/calendar.png';
+// import React from 'react';
+// import './css/tech.css'; 
+// import olive from '../olive-logo.png';
+// import calendar from './images/calendar.png';
 
-function Technology() {
-  return (
-    <div className="home-container">
-      <div className="speech-bubble-container">
-        <div className="speech-bubble">
-          Hello! I'm Olive, your AI assistant.
-        </div>
-        <div className="speech-bubble-tail"></div>
-      </div>
-      <section className="welcome-section">
-        <h1>Meet Olive!</h1>
-        <p>Olive is an AI-powered calendar assistant that learns your productivity habits over time to ensure you complete your highest priority tasks in an efficient and timely manner. Try Olive for free today!</p>
-        <button className="signup-btn">Sign up for Free</button>
-      </section>
-      <div className="combined-section">
-        <div className="features">
-          <div className="feature">
-            <button>Intelligent Scheduling</button>
-            <p>Olive uses machine learning algorithms to analyze your productivity habits and schedule your tasks accordingly.</p>
-          </div>
-          <div className="feature">
-            <button>Task Prioritization</button>
-            <p>Olive helps you prioritize your tasks based on their importance and urgency to ensure you complete them in a timely manner.</p>
-          </div>
-          <div className="feature">
-            <button>Real-time Notifications</button>
-            <p>Olive sends you real-time notifications to remind you of your upcoming tasks and deadlines.</p>
-          </div>
-        </div>
-        <div className="use-case-section">
-          <img src={calendar} alt="Calendar" className="calendar" />
-        </div>
-      </div>
-    </div>
-  );
-}
+// const Technology = () => {
+//     return (
+//         <div className="technology-page">
+//             <div className="top-section">
+//                 <div className="intro-text">
+//                     <div className="text-bubble">
+//                         <h1>Hi, I am Olive!</h1>
+//                         <p>I am an AI-powered calendar assistant that learns your productivity habits over time to ensure you complete your highest priority tasks in an efficient and timely manner.</p>
+//                     </div>
+//                     <button className="signup-button">Sign up for Free</button>
+//                 </div>
+//                 <div className="olive-image-wrapper">
+//                   <img src={olive} alt="Olive the Assistant" />
+//                 </div>
+//             </div>
 
-export default Technology;
+//             <div className="content-section">
+//                 <h2>The Team</h2>
+//                 <div className="tech-details">
+//                   <img src={calendar} alt="Our Calendar" className="calendar-image" />
+//                     <div className="graphs-and-demos">
+//                         <p>Interactive graphs and demonstrations of our technology will be displayed here.</p>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// };
+
+// export default Technology;

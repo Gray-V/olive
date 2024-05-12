@@ -16,7 +16,7 @@ function Navbar() {
         <NavLink to="/" className='home-button' > <img className="logo" src={logo} alt="Logo" /></NavLink>
         <div className={`nav-links ${isOpen ? "open" : ""}`}>
           <NavLink to="/dashboard" activeClassName="active">Dashboard</NavLink>
-          <NavLink to="/technology" activeClassName="active">Technology</NavLink>
+          {/* <NavLink to="/technology" activeClassName="active">Technology</NavLink> */}
           <NavLink to="/pricing" activeClassName="active">Pricing</NavLink>
         </div>
       </div>

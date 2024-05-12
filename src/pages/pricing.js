@@ -21,9 +21,9 @@ function PricingCard({ title, price, features, buttonLabel }) {
 function Pricing() {
   const plans = [
     {
-      title: 'Basic',
-      price: '$10/month',
-      features: ['Feature 1', 'Feature 2', 'Feature 3'],
+      title: 'Individual',
+      price: '$2/month',
+      features: ['Unilimited Access for One User', 'Feature 2', 'Feature 3'],
       buttonLabel: 'coming soon'
     },
     {
