@@ -21,21 +21,21 @@ function PricingCard({ title, price, features, buttonLabel }) {
 function Pricing() {
   const plans = [
     {
-      title: 'Individual',
-      price: '$2/month',
-      features: ['Unilimited Access for One User', 'Feature 2', 'Feature 3'],
+      title: 'Free Trial',
+      price: 'Free for a Month',
+      features: ['Try our software for free for a month and experience its full capabilities.'],
       buttonLabel: 'coming soon'
     },
     {
-      title: 'Pro',
-      price: '$30/month',
-      features: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4'],
+      title: 'Premium',
+      price: '$2.99/month',
+      features: ['Perfect for individual users who want to manage their tasks effectively.'],
       buttonLabel: 'coming soon'
     },
     {
-      title: 'Enterprise',
+      title: 'Education',
       price: 'Contact Us',
-      features: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4', 'Feature 5'],
+      features: ['Tailored for universities to empower their students with our software. Contact us for a personalized plan to meet the specific needs of your institution.'],
       buttonLabel: 'coming soon'
     }
   ];
