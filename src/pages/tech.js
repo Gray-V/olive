@@ -6,6 +6,7 @@ import classes from './images/class.jpeg';
 import extractor from './images/extractor.jpeg';
 import features from './images/features.jpeg';
 
+
 const Technology = () => {
     return (
         <div className="technology-page">
@@ -15,7 +16,6 @@ const Technology = () => {
                         <h1>Hi, I am Olive!</h1>
                         <p>I am an AI-powered calendar assistant that learns your productivity habits over time to ensure you complete your highest priority tasks in an efficient and timely manner.</p>
                     </div>
-                    <button className="signup-button">Sign up for Free</button>
                 </div>
                 <div className="olive-image-wrapper">
                     <img src={oliveLogo} alt="Olive the Assistant" />
