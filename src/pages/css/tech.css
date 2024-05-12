@@ -1,4 +1,4 @@
-/* Technology.css
+/* Technology.css */
 .technology-page {
     display: grid;
     place-items: center;
@@ -99,4 +99,74 @@
 .graphs-and-demos {
     width: 50%;
     padding: 10px;
-} */
+}
+
+
+/* General styles for the content section */
+.content-section {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+    
+}
+
+/* Header styles */
+h2 {
+    color: #7c8c65;
+    font-size: xx-large;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Styling for technical details sections */
+.tech-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    
+}
+
+/* Styles for images */
+.calendar-image {
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Styling for text descriptions inside tech-details */
+.graphs-and-demos {
+    width: 55%;
+    padding: 10px;
+    border-left: 5px solid #7c8c65;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: url('../images/background-image.jpg') no-repeat center center; 
+}
+
+.graphs-and-demos p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .tech-details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .calendar-image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .graphs-and-demos {
+        width: 100%;
+    }
+
+}

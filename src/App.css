@@ -32,6 +32,7 @@ body, html {
   border-bottom: #7c8c65 3px solid; 
   position: fixed;
   width: 100%;
+  z-index: 1000
 }
 
 
