@@ -32,7 +32,8 @@ body, html {
   border-bottom: #7c8c65 3px solid; 
   position: fixed;
   width: 100%;
-  z-index: 1000
+  z-index: 1000;
+  margin-bottom: 20px;
 }
 
 
@@ -135,6 +136,9 @@ body, html {
 
   .nav-links a:hover {
     background: #7c8c65; 
+  }
+  .navbar {
+    position: relative;
   }
 }
 
