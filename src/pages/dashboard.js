@@ -28,7 +28,7 @@ function Dashboard() {
     return (
         <div className="in-progress-container">
             <h1>We're Working on It!</h1>
-            <p>This section of our website is currently under development. Signing up for our email list by July 1st will give you a free year of Olive!</p>
+            <p>This section of our website is currently under development. The first 1000 people to sign up for our email list will get a free year of Olive!</p>
             <p>Stay tuned for updates, or enter your email below to be notified when we're ready:</p>
             <form className="notify-form" onSubmit={handleEmailSubmit}>
                 <input

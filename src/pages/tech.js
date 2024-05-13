@@ -5,6 +5,7 @@ import calendarImage from './images/calendar.png';
 import classes from './images/class.jpeg';
 import extractor from './images/extractor.jpeg';
 import features from './images/features.jpeg';
+import reward from './images/reward.png'
 
 
 const Technology = () => {
@@ -44,12 +45,19 @@ const Technology = () => {
                         <p>Here is an overview of the current implementation of our custom calendar object. It includes simple methods such as adding and removing events, but will also include custom hash and equality functions to make sure appropriate storage within the context of getting an accurate successor state.</p>
                     </div>
                 </div>
-                <h2>Features</h2>
+                <h2>Training Parameters</h2>
                 <div className="tech-details">
                   <div className="graphs-and-demos">
                         <p>Here are the training parameters we are currently using. We decided to utilize an epsilon-decreasing Action Selection Rule (ASR), such that we assume the agent after a certain number of explorative iterations will begin to converge towards optimal policy. In the future, we may explore a state-specific dynamic ASR that will adjust specific to the context of the individual user, and therefore provide more accurate results faster. We have a high learning rate, and a high discount for our agent to have a greater recency bias.</p>
                     </div>
                     <img src={features} alt="features" className="calendar-image" />
+                </div>
+                <h2>Reward Function</h2>
+                <div className="tech-details">
+                    <img src={reward} alt="classes" className="calendar-image" />
+                    <div className="graphs-and-demos">
+                        <p>This is how our reward function will be influenced. The user will complete a Task Completion Rating (TCR), which involves multiple high-entropy ways to retrieve information, e.g. providing a rating for that event type at that time, and will ask for the user to choose between this and another similar event they have experienced in the past. This will improve the speed at which the weights converge towards optimal policy.</p>
+                    </div>
                 </div>
             </div>
         </div>
