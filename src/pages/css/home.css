@@ -57,7 +57,7 @@
 
 }
 
-.try-for-free{
+.main-content .try-for-free{
     color: #ffffff;
     background-color: #7c8c65;
     max-width: fit-content;
@@ -70,7 +70,7 @@
     
 }
 
-.try-for-free:hover{
+.main-content .try-for-free:hover{
     background-color: #BDC588;
     color: #ffffff;
     font-size: 130%;

@@ -2,6 +2,7 @@ import React from 'react';
 import './css/home.css'; 
 import oliveImage from './olive.png'; 
 import circle from './circle.png';
+import { NavLink } from 'react-router-dom';
 
 function LandingPage() {
   return (
@@ -13,7 +14,7 @@ function LandingPage() {
         <h1>Meet Olive</h1>
         <h2>An AI Calendar Assistant</h2>
         <p>Olive is an intelligent scheduling app, effortlessly organizing your tasks and appointments while learning your habits for optimal productivity.</p>
-        <button className="try-for-free">Try it for free</button>
+        <NavLink to="/dashboard" ClassName="try-for-free">Sign up for our Mailing List</NavLink>
         <img src={oliveImage} alt="Olive" className="olive-image" />
         <img src={circle} alt="Circle" className="circle" />
       </main>

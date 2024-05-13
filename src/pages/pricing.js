@@ -27,7 +27,7 @@ function Pricing() {
       buttonLabel: 'coming soon'
     },
     {
-      title: 'Premium',
+      title: 'Individual',
       price: '$2.99/month',
       features: ['Perfect for individual users who want to manage their tasks effectively.'],
       buttonLabel: 'coming soon'

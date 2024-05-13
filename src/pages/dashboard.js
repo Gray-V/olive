@@ -22,12 +22,13 @@ function Dashboard() {
         } catch (error) {
           alert(`Failed to add email: ${error.message}`);
         }
+        
     };
 
     return (
         <div className="in-progress-container">
             <h1>We're Working on It!</h1>
-            <p>This section of our website is currently under development.</p>
+            <p>This section of our website is currently under development. Signing up for our email list by July 1st will give you a free year of Olive!</p>
             <p>Stay tuned for updates, or enter your email below to be notified when we're ready:</p>
             <form className="notify-form" onSubmit={handleEmailSubmit}>
                 <input
