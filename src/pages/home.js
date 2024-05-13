@@ -8,7 +8,7 @@ function LandingPage() {
   return (
     <div className="landing-page-container">
       <header className="landing-header">
-        <div className="logo">Olive</div>
+        <div className="logo"></div>
       </header>
       <main className="main-content">
         <h1>Meet Olive</h1>
